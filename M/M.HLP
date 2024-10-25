@@ -1,0 +1,42 @@
+      /*  M File Manager for MSX-DOS2                  *\
+      \*         By Yeongman Seo <sharksym@hitel.net>  */
+
+#ESC    : Exit to DOS                             [ ^ : CTRL  ]
+ ESC    : View DOS screen / Cancel operation      [ # : SHIFT ]
+ HOME   : Quick-Dir menu
+ TAB    : Move cursor to opposite viewer
+ UP     : Move cursor to previous item
+^UP     : Move cursor to first item
+ DOWN   : Move cursor to next item
+^DOWN   : Move cursor to last item
+ LEFT   : Move cursor to previous page
+ RIGHT  : Move cursor to next page
+ RETURN : Execute file / Open sub directory / Open drive
+#RETURN : Open sub directory / Open drive in opposite viewer
+^RETURN : Show attribute of file or directory
+F1 ~ F5 : Execute function key menu (#:F6~F10, #^:F11~F15)
+#A ~ #H : Change drive (A,B,C ... H)
+ \      : Go to root directory
+#\      : Go to directory of M
+ BS     : Go to parent directory                   [ Page 1/2 ]
+ /      : Open DOS command line                   [ ^ : CTRL  ]
+#/      : Open DOS command line, typing COM/BAT   [ # : SHIFT ]
+ SPACE  : Select / deselect file
+#SPACE  : Select / deselect all files
+^SPACE  : Select files with same Extension
+#UP     : Select file and Move cursor to previous item
+#DOWN   : Select file and Move cursor to next item
+^C | INS: Copy file or directory
+^M      : Move file or directory
+^S      : Change sorting mode
+^D | DEL: Delete file or directory
+#DEL    : Delete file or directory, removing ReadOnly attribute
+^K      : Make new directory
+^R      : Rename file or directory
+^B      : Show 'about' window
+^A      : Create LZH archive from selected files
+^E      : Extract all files from LZH archive
+^I      : Toggle interlace mode display
+^N      : Toggle gray scale palette
+^V      : Toggle VDP V-Sync 60Hz/50Hz mode
+^L      : Toggle LFN(Long File Name) mode          [ Page 2/2 ]
