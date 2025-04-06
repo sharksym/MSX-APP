@@ -4,21 +4,26 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.75 ]
+[ BIOS & Tool v5.76 ]
 
-- MMC/SD BIOS
+- MegaRAM
 
-  MMCSD Tool에 BIOS 롬이 내장됨. (MMCSD.OVL에 포함)
-  -> 기기와 Tool의 BIOS 버전이 차이나는 경우,
-     옵션없이 MMCSD.COM을 실행하면 BIOS 업데이트가 진행됨.
-     '/U' 옵션으로 강제 업데이트도 가능함.
+  FMPAC BIOS가 로딩된 PAC-V를 MSX-MUSIC으로 인식하는 문제 수정.
+  -> FMPAC 슬롯의 우선순위가 낮으면 SOUND 포트가 OFF되는 문제입니다.
+     PAC-V에 BASIC'n 롬이 로딩된 경우는 상관없습니다.
 
 
-- SUB-ROM
+- FDD_EMU
 
-  롬 다운로드 시, 최대 28문자의 제목을 추가 가능.
-  -> '/S' 대신 '/S:' 옵션 사용.
-     예) MMCSD RC749.ROM /S:THE_MAZE_OF_GALIOUS
+  ONE-Drive 모드에서, FDD 슬롯 디텍션 개선.
+  예: MMC/SD 포함 디스크 인터페이스가 3개 이상 동작하는 경우 등
+
+
+- WAU 지원
+
+  MegaRAM, FDD_EMU 구동 시 WAU의 DiskROM(리모트 드라이브)은 항상 OFF됩니다.
+  기본적으로 WAU BIOS, SERIAL BIOS도 OFF됩니다.
+  /W 옵션 사용 시, WAU BIOS 및 SERIAL BIOS가 ON상태를 유지합니다.
 
 
 [ 업데이트 가이드 ]

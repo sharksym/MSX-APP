@@ -4,20 +4,22 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.75 ]
+[ BIOS & Tool v5.76 ]
 
-- MMC/SD BIOS
+- MegaRAM
 
-  Added BIOS ROM in MMCSD.OVL
-  -> MMCSD.COM will update BIOS automatically,
-      if BIOS of device is outdated.
+  Fixed MSX-MUSIC detection regarding PAC-V BIOS
 
 
-- SUB-ROM
+- FDD_EMU
 
-  Added optional max.28 characters for title.
-  -> Use '/S:' instead of '/S'
-     Eg) MMCSD RC749.ROM /S:THE_MAZE_OF_GALIOUS
+  Improved ONE-Drive with multiple disk interfaces.
+
+
+- WAU cartridge support
+
+  WAU remote drive will be disabled for MegaRAM, FDD_EMU.
+  Use '/W' option to leave WAU BIOS & SERIAL BIOS on.
 
 
 [ UPDATE GUIDE ]
