@@ -12,8 +12,8 @@
  LEFT   : Move cursor to previous page
  RIGHT  : Move cursor to next page
  RETURN : Execute file / Open sub directory / Open drive
-#RETURN : Open sub directory / Open drive in opposite viewer
-^RETURN : Show attribute of file or directory
+^RETURN : Open sub directory / Open drive in opposite viewer
+#RETURN : Show attribute of file or directory
 F1 ~ F5 : Execute function key menu (#:F6~F10, #^:F11~F15)
 #A ~ #H : Change drive (A,B,C ... H)
  \      : Go to root directory
@@ -37,6 +37,6 @@ F1 ~ F5 : Execute function key menu (#:F6~F10, #^:F11~F15)
 ^A      : Create LZH archive from selected files
 ^E      : Extract all files from LZH archive
 ^I      : Toggle interlace mode display
-^N      : Toggle gray scale palette
+^N      : Toggle monochrome palette
 ^V      : Toggle VDP V-Sync 60Hz/50Hz mode
 ^L      : Toggle LFN(Long File Name) mode          [ Page 2/2 ]

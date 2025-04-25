@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
-    M File Manager v4.5 for MSX-DOS2 (2025-04-07)
+    M File Manager v4.6 for MSX-DOS2 (2025-04-25)
         By Yeongman Seo <sharksym@hitel.net>
 ----------------------------------------------------------------
 
@@ -7,26 +7,16 @@
 
   @ 기능 변경/개선
 
-  - 파일복사 시, 프로그레스바가 가끔 박스를 벗어나는 현상 수정
+  - WAU 리모트 드라이브에서 멀티메뉴 시 스트리밍 오류 수정
 
-  - 문자열 입력 시, CTRL + LEFT/RIGHT 처리 추가
-
-  - v4.4의 속성 변경과 타겟 패널 열기용 단축키 설정 원복
-    속성변경 -> SHIFT + RETURN
-    패널열기 -> CTRL  + RETURN
+  - WAU(또는 MPX)가 없을 때 GD3 태그 출력 오류 수정
 
 
   @ 기능 추가
 
-  - #MPXP에서 WAU 카트리지 지원 추가
-    MP3, WMA 재생 및 PAC-V LED Visualizer 연동
-    Z80 노말모드에서 MP3 320kbps 파일 및 스트리밍 플레이 가능
+  - 모노크롬 모드 종류 추가
+    Amber, Green, Blue, White
 
-  - WAU 리모트 드라이브에서 오디오파일 스트리밍 지원
-    FFmpeg, OpenMPT, VGM Play 등
-
-  - 인터넷 MP3 스트리밍용 PLS(리스트) 지원
-    참고) PLS 리스트의 첫 항목만 재생합니다.
 
 
 
