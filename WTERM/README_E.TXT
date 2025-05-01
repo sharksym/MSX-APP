@@ -1,15 +1,26 @@
 --------------------------------------------------
-WAU Terminal v1.00
+WAU Terminal v1.01
     By Yeongman Seo <sharksym@hitel.net>
 --------------------------------------------------
 
-@ Terminal for WAU Wi-Fi
+@ UPDATE
+
+- Improved ANSI command
+- Added Hangul IME
+- Added Monochrome Amber
+
+--------------------------------------------------
+
+@ WTERM.COM
+
+- Terminal for WAU Wi-Fi
 
 
 @ Requirements: MSX-DOS2, Memory Mapper 32KB
 
 
 @ Feature
+
 - Telnet
 - ANSI Color
 - YMODEM downloader
