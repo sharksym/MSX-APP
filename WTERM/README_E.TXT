@@ -1,13 +1,13 @@
 --------------------------------------------------
-WAU Terminal v1.01
+WAU Terminal v1.02
     By Yeongman Seo <sharksym@hitel.net>
 --------------------------------------------------
 
 @ UPDATE
 
+- Added ANSI Music support (PSG)
 - Improved ANSI command
-- Added Hangul IME
-- Added Monochrome Amber
+- Improved word wrap
 
 --------------------------------------------------
 
@@ -23,6 +23,7 @@ WAU Terminal v1.01
 
 - Telnet
 - ANSI Color
+- ANSI Music
 - YMODEM downloader
 - SCREEN7 interlaced mode
 - SCREEN7 progressive mode for CP437 only
