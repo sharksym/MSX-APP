@@ -1,13 +1,15 @@
 --------------------------------------------------
-WAU Terminal v1.02
+WAU Terminal v1.03
     By Yeongman Seo <sharksym@hitel.net>
 --------------------------------------------------
 
 @ UPDATE
 
-- ANSI Music 지원 (PSG)
-- ANSI 커맨드 개선
-- 자동 줄바꿈(word wrap) 개선
+- ANSI Music 플레이 시, PAC-V 비주얼라이저 지원
+
+- ANSI 파일 뷰어 모드 추가 (/F)
+  텔넷 서버 주소 대신 로컬의 파일명을 입력합니다.
+  SPACE 키를 눌러서 화면 스크롤을 멈출 수 있습니다.
 
 --------------------------------------------------
 
@@ -22,6 +24,7 @@ WAU Terminal v1.02
 @ 기능
 
 - 텔넷 접속
+- ANSI 파일 뷰어
 - ANSI 컬러
 - ANSI 뮤직
 - YMODEM 다운로드
@@ -35,7 +38,8 @@ WAU Terminal v1.02
 
 @ 단축키
 
-STOP: 종료
+STOP:  종료
+SPACE: 스크롤 멈춤 (파일 뷰어 모드 전용)
 
 GRAPH + V: V-Sync 60Hz/50Hz
 GRAPH + I: 인터레이스/프로그레시브 디스플레이
@@ -51,9 +55,14 @@ GRAPH + RIGHT: End
 
 @ 사용법
 
-WTERM 텔넷주소 [포트] [옵션]
+텔넷 모드: WTERM 텔넷주소 [포트] [옵션]
 
 포트 설정이 없으면 기본 포트(23)을 사용합니다.
 
 예) WTERM bbs.hispamsx.org /P
     WTERM jpmud.duckdns.org 5555 /K /E
+
+
+파일 뷰어 모드: WTERM 파일명 /F [옵션]
+
+예) WTERM ansi-mus.ams /F

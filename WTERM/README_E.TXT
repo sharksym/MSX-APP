@@ -1,13 +1,13 @@
 --------------------------------------------------
-WAU Terminal v1.02
+WAU Terminal v1.03
     By Yeongman Seo <sharksym@hitel.net>
 --------------------------------------------------
 
 @ UPDATE
 
-- Added ANSI Music support (PSG)
-- Improved ANSI command
-- Improved word wrap
+- Added PAC-V support for ANSI Music
+
+- Added ANSI File viewer mode (/F option)
 
 --------------------------------------------------
 
@@ -22,6 +22,7 @@ WAU Terminal v1.02
 @ Feature
 
 - Telnet
+- ANSI File viewer
 - ANSI Color
 - ANSI Music
 - YMODEM downloader
@@ -35,7 +36,8 @@ WAU Terminal v1.02
 
 @ Special Key
 
-STOP: Exit
+STOP:  Exit
+SPACE: Scroll stop (File viewer only)
 
 GRAPH + V: V-Sync 60Hz/50Hz
 GRAPH + I: Interlace/Progressive display
@@ -51,7 +53,12 @@ GRAPH + RIGHT: End
 
 @ Usage
 
-WTERM telnet_address [port] [option]
+Telnet: WTERM telnet_address [port] [option]
 
 eg) WTERM bbs.hispamsx.org /P
     WTERM jpmud.duckdns.org 5555 /K /E
+
+
+File viewer: WTERM filename /F [option]
+
+eg) WTERM ansi-mus.ams /F
