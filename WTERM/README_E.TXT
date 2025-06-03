@@ -1,13 +1,13 @@
 --------------------------------------------------
-WAU Terminal v1.03
+WAU Terminal v1.04
     By Yeongman Seo <sharksym@hitel.net>
 --------------------------------------------------
 
 @ UPDATE
 
-- Added PAC-V support for ANSI Music
+- Changed Yellow palette
+  R5 G5 B0 -> R5 G3 B0
 
-- Added ANSI File viewer mode (/F option)
 
 --------------------------------------------------
 
