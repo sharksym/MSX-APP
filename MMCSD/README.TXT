@@ -4,26 +4,37 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.76 ]
+[ BIOS & Tool v5.77 ]
 
 - MegaRAM
 
-  FMPAC BIOS가 로딩된 PAC-V를 MSX-MUSIC으로 인식하는 문제 수정.
-  -> FMPAC 슬롯의 우선순위가 낮으면 SOUND 포트가 OFF되는 문제입니다.
-     PAC-V에 BASIC'n 롬이 로딩된 경우는 상관없습니다.
+  롬매퍼 디텍션 개선
+  -> 자기중심파2
+
+
+- GameRunner
+
+  LED Visualizer 개선
+  -> PSG 전용 모드(LED x9)에서 주파수 0일 때 OFF 처리
+
+
+- Disk Driver
+
+  SLT-Turbo 전용 명령어 지원
 
 
 - FDD_EMU
 
-  ONE-Drive 모드에서, FDD 슬롯 디텍션 개선.
-  예: MMC/SD 포함 디스크 인터페이스가 3개 이상 동작하는 경우 등
+  ONE-Drive OFF 모드에서 /T(turbo) 옵션 사용 가능
+
+  ONE-Drive OFF 자동설정 추가
+  -> Seed of Dragon, Ranma 1/2
 
 
-- WAU 지원
+- MV2 Player
 
-  MegaRAM, FDD_EMU 구동 시 WAU의 DiskROM(리모트 드라이브)은 항상 OFF됩니다.
-  기본적으로 WAU BIOS, SERIAL BIOS도 OFF됩니다.
-  /W 옵션 사용 시, WAU BIOS 및 SERIAL BIOS가 ON상태를 유지합니다.
+  SLT-Turbo 전용 Movie Player
+  -> Video 15fps, Audio MP3 128kbps (WAU 필요)
 
 
 [ 업데이트 가이드 ]
@@ -31,7 +42,7 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 1. MMCSD.COM, MMCSD.OVL 두개 파일을 SD카드에 복사.
    기존 파일을 덮어쓰면 됩니다.(예:UTILS 디렉토리)
 
-2. MMCSD.COM 프로그램을 실행.
+2. MMCSD.COM 프로그램을 실행 또는 MMCSD /U 실행
 
 3. 'Update BIOS-ROM? [y/N]' 메시지가 나오면 Y키 누름.
 
