@@ -3,8 +3,13 @@ SLT-Turbo - BIOS & Tool
     By Yeongman Seo <sharksym@hitel.net>
 --------------------------------------------------
 
+- 변경 부분
 
-[ BIOS & Tool v2.10 ]
+  SLT-X에 장착된 FMPAC의 OPLL I/O Enable 추가
+  -> 오리지널 Panasoft FMPAC만 해당됨
+
+
+[ BIOS & Tool v2.11 ]
 
 - BIOS 롬
 
