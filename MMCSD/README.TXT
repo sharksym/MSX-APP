@@ -4,37 +4,16 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.77 ]
-
-- MegaRAM
-
-  롬매퍼 디텍션 개선
-  -> 자기중심파2
-
-
-- GameRunner
-
-  LED Visualizer 개선
-  -> PSG 전용 모드(LED x9)에서 주파수 0일 때 OFF 처리
-
+[ BIOS & Tool v5.78 ]
 
 - Disk Driver
 
-  SLT-Turbo 전용 명령어 지원
-
-
-- FDD_EMU
-
-  ONE-Drive OFF 모드에서 /T(turbo) 옵션 사용 가능
-
-  ONE-Drive OFF 자동설정 추가
-  -> Seed of Dragon, Ranma 1/2
+  SLT-Turbo 고속모드에서 섹터 READ 안정성 개선
 
 
 - MV2 Player
 
-  SLT-Turbo 전용 Movie Player
-  -> Video 15fps, Audio MP3 128kbps (WAU 필요)
+  비디오 프레임 끝에서 가끔 멈추는 현상 수정
 
 
 [ 업데이트 가이드 ]
@@ -48,4 +27,4 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 
 4. 다운로드 완료 후 RETURN키 눌러서 재부팅.
 
-4. 끝
+5. 끝
