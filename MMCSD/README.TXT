@@ -4,16 +4,12 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.78 ]
-
-- Disk Driver
-
-  SLT-Turbo 고속모드에서 섹터 READ 안정성 개선
-
+[ BIOS & Tool v5.79 ]
 
 - MV2 Player
 
-  비디오 프레임 끝에서 가끔 멈추는 현상 수정
+  립싱크 개선 (오디오 딜레이 추가)
+  PAC-V 및 XII-V 비주얼라이저 지원 (본체쪽 기기)
 
 
 [ 업데이트 가이드 ]
