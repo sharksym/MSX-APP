@@ -11,6 +11,10 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
   립싱크 개선 (오디오 딜레이 추가)
   PAC-V 및 XII-V 비주얼라이저 지원 (본체쪽 기기)
 
+- GameRunner
+
+  SLT-Turbo에서 PAC-V 및 XII-V 비주얼라이저 설정 추가
+
 
 [ 업데이트 가이드 ]
 
