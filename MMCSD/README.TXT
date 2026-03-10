@@ -4,16 +4,12 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.79 ]
+[ BIOS & Tool v5.80 ]
 
-- MV2 Player
+- FDD_EMU
 
-  립싱크 개선 (오디오 딜레이 추가)
-  PAC-V 및 XII-V 비주얼라이저 지원 (본체쪽 기기)
-
-- GameRunner
-
-  SLT-Turbo에서 PAC-V 및 XII-V 비주얼라이저 설정 추가
+  SLT-Turbo용 DiskROM 패치 지원 (Shadow RAM BIOS)
+  /DT 옵션 사용, V4는 SCC-I 128KB 모드로 전환됨
 
 
 [ 업데이트 가이드 ]
