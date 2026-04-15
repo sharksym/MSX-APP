@@ -4,12 +4,18 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.80 ]
+[ BIOS & Tool v5.81 ]
 
 - FDD_EMU
 
-  SLT-Turbo용 DiskROM 패치 지원 (Shadow RAM BIOS)
-  /DT 옵션 사용, V4는 SCC-I 128KB 모드로 전환됨
+  디스크 루틴 개선
+  -> 마이크로캐빈 게임에서 발생하는 로딩 지연 개선
+
+
+- MV2_PLAY
+
+  프레임 싱크 개선 및 빨리감기(RETURN 키) 지원 추가
+
 
 
 [ 업데이트 가이드 ]
