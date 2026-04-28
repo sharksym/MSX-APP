@@ -1,15 +1,22 @@
 --------------------------------------------------
-SLT-Turbo - BIOS & Tool
+SLT-Turbo(tm) - BIOS & Tool v2.12 (2026-04-28)
     By Yeongman Seo <sharksym@hitel.net>
 --------------------------------------------------
 
-- 변경 부분
+[ 변경 부분 ]
 
-  SLT-X에 장착된 FMPAC의 OPLL I/O Enable 추가
-  -> 오리지널 Panasoft FMPAC만 해당됨
+- 부트 로고가 추가되었습니다.
+  SLT-Turbo가 부팅을 준비하는 구간에서 잠깐 보여집니다.
+
+- 부트 금지 기능이 추가되었습니다.
+  부팅 시, Z키를 누르고 있으면 SLT-Turbo disable됩니다.
+  본체의 슬롯에서 MMC/SD가 인식되면 SLT-Turbo disable됩니다.
+
+  부트 금지 상태에서는 로고가 표시되지 않습니다.
+  소프트 리셋을 하는 경우에도 금지 상태가 유지됩니다.
 
 
-[ BIOS & Tool v2.11 ]
+[ BIOS & Tool ]
 
 - BIOS 롬
 
@@ -39,7 +46,7 @@ SLT-Turbo - BIOS & Tool
 
 
 
-[ 업데이트 가이드 ]
+[ BIOS 업데이트 가이드 ]
 
 1. SLTT.COM, SLTT.OVL 두개 파일을 SD카드에 복사.
    기존 파일을 덮어쓰면 됩니다.(예:UTILS 디렉토리)
