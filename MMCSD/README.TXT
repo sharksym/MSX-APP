@@ -4,17 +4,11 @@ MMC/SD Drive(tm) V3/V4 - BIOS & Tool
 --------------------------------------------------
 
 
-[ BIOS & Tool v5.81 ]
+[ BIOS & Tool v5.82 ]
 
-- FDD_EMU
+- PAC-M
 
-  디스크 루틴 개선
-  -> 마이크로캐빈 게임에서 발생하는 로딩 지연 개선
-
-
-- MV2_PLAY
-
-  프레임 싱크 개선 및 빨리감기(RETURN 키) 지원 추가
+  MegaRAM, FDD_EMU 모드에서 PAC-M 설정 추가
 
 
 
